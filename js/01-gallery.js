@@ -5,7 +5,7 @@ const div = document.querySelector(".gallery");
 
 const imageCard = galleryItems.map((obj) => 
 ` <div class="gallery__item">
-        <a class="gallery__link" href="${obj.original}">
+        <a class="gallery__link" href="large-image.jpg">
          <img
          class="gallery__image"
          src="${obj.preview}"
