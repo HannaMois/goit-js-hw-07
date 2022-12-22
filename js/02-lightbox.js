@@ -16,7 +16,7 @@ const imageCard = galleryItems.map((obj) =>
     </div>`
     ).join("");
 
-div.insertAdjacentHTML("beforeend", imageCard);
+div.insertAdjacentHTML("afterbegin", imageCard);
 
 const lightbox = new SimpleLightbox(".gallery a", {
   captionsData: "alt",
