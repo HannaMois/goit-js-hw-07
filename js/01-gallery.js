@@ -15,7 +15,7 @@ const imageCard = galleryItems.map((obj) =>
     </div>`
     ).join("");
 
-div.insertAdjacentHTML("beforeend", imageCard);
+div.insertAdjacentHTML("afterbegin", imageCard);
 
 div.addEventListener("click", onImageClick);
 
